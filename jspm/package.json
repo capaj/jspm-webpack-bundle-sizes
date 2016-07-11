@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "jspm bundle-sfx main.js --minify"
+  },
   "jspm": {
     "dependencies": {
       "react": "npm:react@^15.2.0",
